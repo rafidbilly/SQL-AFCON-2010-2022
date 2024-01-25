@@ -1,10 +1,3 @@
-SELECT DISTINCT
-    YEAR(matchdate)
-FROM
-    african_nations_results_clean
-WHERE
-    tournament = 'african cup of nations';
-
 CREATE TABLE afcon_champion(
 	tournament_year INT,
     champion VARCHAR(255),
